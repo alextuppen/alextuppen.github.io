@@ -14,13 +14,7 @@
   margin: auto;
 }
 
-.site-header-wrapper:hover {
-  text-decoration: underline;
-  text-decoration-color: #17B897;
-  text-decoration-style: double;
-}
-
-.site-header-wrapper:active {
+.site-header-wrapper:hover, .site-header-wrapper:active {
   text-decoration: underline;
   text-decoration-color: #17B897;
   text-decoration-style: double;
