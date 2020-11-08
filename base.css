@@ -1,2 +1,12 @@
 @import "https://necolas.github.io/normalize.css/8.0.1/normalize.css";
 
+* {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  color: #F7F7F7;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
