@@ -20,6 +20,12 @@
   text-decoration-style: double;
 }
 
+.site-header-wrapper:active {
+  text-decoration: underline;
+  text-decoration-color: #17B897;
+  text-decoration-style: double;
+}
+
 .site-header-logo {
   width: 2rem;
   height: 2rem;
