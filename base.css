@@ -1,4 +1,8 @@
 @import "https://necolas.github.io/normalize.css/8.0.1/normalize.css";
+@import "assets/styles/css-variables.css";
+@import "assets/styles/site-header.css";
+@import "assets/styles/body.css";
+@import "assets/styles/button.css";
 
 * {
   font-family: 'Jost', sans-serif;
@@ -6,7 +10,17 @@
 }
 
 h1 {
-  color: #F7F7F7;
+  color: var(--white-smoke);
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
+}
+
+hr.major {
+  width: 80%;
+  border-top: solid .2rem var(--mountain-meadow);
+}
+
+hr.minor {
+  width: 60%;
+  border-top: solid .1rem var(--grey);
 }
