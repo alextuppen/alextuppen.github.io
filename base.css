@@ -15,12 +15,17 @@ h1 {
   font-weight: 500;
 }
 
+hr {
+  height: 10px;
+  border: none;
+}
+
 hr.major {
-  width: 80%;
-  border-top: solid .2rem var(--primary);
+  width: 90%;
+  background: radial-gradient(ellipse farthest-side at top center, var(--primary), transparent);
 }
 
 hr.minor {
-  width: 60%;
-  border-top: solid .1rem var(--neutral);
+  width: 70%;
+  background: radial-gradient(ellipse farthest-side at top center, var(--neutral), transparent);
 }
