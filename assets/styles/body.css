@@ -1,13 +1,16 @@
-.body {
-  background-color: var(--neutral-light);
+.body-wrapper {
+  display: flex;
+  background-color: var(--neutral);
   text-align: center;
 }
 
-.body-wrapper {
+.body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  background-color: var(--neutral-light);
 }
 
 .body-header {
@@ -25,7 +28,7 @@
 
 @media only screen and (min-width: 600px) {
   .body-header {
-    padding: 4rem;
+    padding: 4rem 0;
   }
   
   .body-header-text {
