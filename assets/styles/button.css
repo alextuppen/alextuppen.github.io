@@ -1,7 +1,6 @@
 button {
   background-color: var(--primary);
   border: none;
-  border-radius: .5rem;
   color: var(--neutral-light);
   padding: 1.25rem;
   text-transform: uppercase;
