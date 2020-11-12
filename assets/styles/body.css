@@ -1,5 +1,5 @@
 .body {
-  background-color: var(--white-smoke);
+  background-color: var(--neutral-light);
   text-align: center;
 }
 
@@ -12,7 +12,7 @@
 
 .body-header {
   display: flex;
-  background-color: var(--nero);
+  background-color: var(--neutral-dark);
   padding: 3rem 0;
   margin-top: 4.2rem;
   width: 100%;

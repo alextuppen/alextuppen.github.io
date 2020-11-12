@@ -3,9 +3,9 @@
   top: 0;
   width: 100%;
   display: flex;
-  background-color: var(--white-smoke);
+  background-color: var(--neutral-light);
   padding: 1rem 0;
-  border-bottom: solid .2rem var(--nero);
+  border-bottom: solid .2rem var(--neutral-dark);
 }
 
 .site-header-wrapper {
@@ -17,7 +17,7 @@
 
 .site-header-wrapper:hover, .site-header-wrapper:active {
   text-decoration: underline;
-  text-decoration-color: var(--mountain-meadow);
+  text-decoration-color: var(--primary);
   text-decoration-style: double;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .site-header-text {
-  color: var(--nero);
+  color: var(--neutral-dark);
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 1.5rem;

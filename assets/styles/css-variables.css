@@ -1,9 +1,10 @@
 /* TODO: Swap colour names for generics like primary, primary-dark */
 
 :root {
-  --mountain-meadow: #17B897;
-  --gossamer: #079A82;
-  --nero: #222222;
-  --grey: #7E7E7E;
-  --white-smoke: #F7F7F7;
+  --primary-light: #2DCCA7;
+  --primary: #17B897;
+  --primary-dark: #079A82;
+  --neutral-light: #F7F7F7;
+  --neutral: #7E7E7E;
+  --neutral-dark: #222222;
 }

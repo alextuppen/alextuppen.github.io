@@ -10,17 +10,17 @@
 }
 
 h1 {
-  color: var(--white-smoke);
+  color: var(--neutral-light);
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 
 hr.major {
   width: 80%;
-  border-top: solid .2rem var(--mountain-meadow);
+  border-top: solid .2rem var(--primary);
 }
 
 hr.minor {
   width: 60%;
-  border-top: solid .1rem var(--grey);
+  border-top: solid .1rem var(--neutral);
 }

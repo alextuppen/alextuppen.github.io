@@ -1,23 +1,21 @@
 button {
-  background-color: var(--mountain-meadow);
+  background-color: var(--primary);
   border: none;
   border-radius: .5rem;
-  color: var(--white-smoke);
+  color: var(--neutral-light);
   padding: 1.25rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
   font-weight: 600;
-  box-shadow: 0px 8px 15px var(--grey);
-}
-
-button:hover, button:active {
-  background-color: var(--gossamer);
+  box-shadow: 0px 8px 15px var(--neutral);
 }
 
 button:hover {
   transform: translateY(-0.2rem);
+  background-color: var(--primary-dark);
 }
 
 button:active {
   transform: translateY(0.2rem);
+  background-color: var(--primary-light);
 }
