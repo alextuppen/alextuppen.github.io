@@ -8,8 +8,7 @@
   display: flex;
   width: 12rem;
   height: 12rem;
-  border: solid .15rem var(--neutral-dark);
-  border-radius: 1rem;
+  box-shadow: 0px 8px 15px var(--neutral);
   color: var(--neutral-light);
   margin: 1rem;
 }
