@@ -1,8 +1,8 @@
 @import "https://necolas.github.io/normalize.css/8.0.1/normalize.css";
-@import "assets/styles/css-variables.css";
-@import "assets/styles/site-header.css";
-@import "assets/styles/body.css";
-@import "assets/styles/button.css";
+@import "css-variables.css";
+@import "site-header.css";
+@import "body.css";
+@import "button.css";
 
 * {
   font-family: 'Jost', sans-serif;
