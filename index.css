@@ -1,42 +1,121 @@
-.hero-wrapper {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/heros/chameleon.jpg");
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/heros/flamingos.jpg");
   margin-top: 4.2rem;
   width: 100%;
   height: calc(100vh - 4.2rem);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-}
-
-.hero-logo-wrapper {
   display: flex;
 }
 
-.hero-image {
+.hero-grid {
+  display: grid;
+  grid-template-areas: 
+    "logo"
+    "title"
+    "text";
+  gap: 1.5rem;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+}
+
+.hero-logo {
+  grid-area: logo;
   width: 10rem;
 }
 
 .hero-title-wrapper {
+  grid-area: title;
   display: flex;
   flex-direction: column;
-  margin: auto auto;
 }
 
 .hero-title {
-  margin: 0 auto 0 2rem;
-  font-size: 6rem;
+  margin: auto;
+  font-size: 4rem;
+  line-height: 1;
 }
 
 .hero-text {
-  margin: 2rem auto;
+  grid-area: text;
+  margin: auto;
   color: var(--neutral-light);
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 500;
-  letter-spacing: .5rem;
+  letter-spacing: .25rem;
+}
+
+@media only screen and (min-width: 37.5rem) {
+  .hero-grid {
+    grid-template-areas: 
+      "logo title"
+      "text text";
+    gap: 1.75rem;
+  }
+
+  .hero-title {
+    font-size: 6rem;
+    margin-left: 0;
+  }
+
+  .hero-text {
+    font-size: 2.25rem;
+  }
+}
+
+@media only screen and (min-width: 56.25rem) {
+  .hero-grid {
+    gap: 2.25rem;
+  }
+
+  .hero-logo {
+    width: 12rem;
+  }
+
+  .hero-title {
+    font-size: 7rem;
+  }
+
+  .hero-text {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 75rem) {
+  .hero-grid {
+    gap: 2.75rem;
+  }
+
+  .hero-logo {
+    width: 16rem;
+  }
+
+  .hero-title {
+    font-size: 9rem;
+  }
+
+  .hero-text {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 112.5rem) {
+  .hero-grid {
+    gap: 3.5rem;
+  }
+
+  .hero-logo {
+    width: 20rem;
+  }
+
+  .hero-title {
+    font-size: 12rem;
+  }
+
+  .hero-text {
+    font-size: 5rem;
+  }
 }

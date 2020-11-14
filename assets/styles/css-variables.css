@@ -1,6 +1,5 @@
-/* TODO: Swap colour names for generics like primary, primary-dark */
-
 :root {
+  /* Colour palette */
   --primary-light: #2DCCA7;
   --primary: #17B897;
   --primary-dark: #079A82;
