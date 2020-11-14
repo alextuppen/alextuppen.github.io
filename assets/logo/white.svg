@@ -1,17 +1,10 @@
-<svg width="600" height="800" viewBox="0 0 600 800" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0)">
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="-100" y="0" width="800" height="800">
-<circle cx="300" cy="400" r="400" fill="white"/>
+<svg width="600" height="900" viewBox="0 0 600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="900">
+<ellipse cx="300" cy="450" rx="300" ry="450" fill="white"/>
 </mask>
 <g mask="url(#mask0)">
 <path d="M0 739L300 -1L600 739L510 770L300 249L90 769.5L0 739Z" fill="#F7F7F7"/>
-<path d="M250 580V833H350V580H250Z" fill="#F7F7F7"/>
-<path d="M0 550L40 440H560L600 550H0Z" fill="#17B897"/>
+<path d="M250 560V900H350V560H250Z" fill="#F7F7F7"/>
+<path d="M5 538L49.5 428H550L595 538H5Z" fill="#17B897"/>
 </g>
-</g>
-<defs>
-<clipPath id="clip0">
-<rect width="600" height="800" fill="white"/>
-</clipPath>
-</defs>
 </svg>
