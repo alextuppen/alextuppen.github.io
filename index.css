@@ -48,6 +48,19 @@
   letter-spacing: .25rem;
 }
 
+.role-details-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.role-details {
+  margin: .25rem;
+}
+
+.role-description {
+  margin-top: 1.5rem;
+}
+
 @media only screen and (min-width: 37.5rem) {
   .hero-grid {
     grid-template-areas: 
@@ -63,6 +76,16 @@
 
   .hero-text {
     font-size: 2.25rem;
+    letter-spacing: .5rem;
+  }
+
+  .role-title {
+    margin: 1rem auto auto;
+  }
+
+  .role-details-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
@@ -80,7 +103,8 @@
   }
 
   .hero-text {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    letter-spacing: .75rem;
   }
 }
 
@@ -98,7 +122,8 @@
   }
 
   .hero-text {
-    font-size: 4rem;
+    font-size: 3rem;
+    letter-spacing: 1rem;
   }
 }
 
@@ -116,6 +141,7 @@
   }
 
   .hero-text {
-    font-size: 5rem;
+    font-size: 3.75rem;
+    letter-spacing: 1.5rem;
   }
 }
