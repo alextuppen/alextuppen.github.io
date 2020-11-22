@@ -14,7 +14,8 @@
   grid-template-areas: 
     "logo"
     "title"
-    "text";
+    "text"
+    "icons";
   gap: 1.5rem;
   justify-items: center;
   align-items: center;
@@ -48,6 +49,17 @@
   letter-spacing: .25rem;
 }
 
+.hero-icon-wrapper {
+  grid-area: icons;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-icon {
+  width: 3rem;
+}
+
 .role-details-wrapper {
   display: flex;
   flex-direction: column;
@@ -65,7 +77,8 @@
   .hero-grid {
     grid-template-areas: 
       "logo title"
-      "text text";
+      "text text"
+      "icons icons";
     gap: 1.75rem;
   }
 
@@ -77,6 +90,14 @@
   .hero-text {
     font-size: 2.25rem;
     letter-spacing: .5rem;
+  }
+
+  .hero-icon-wrapper {
+    width: 12rem;
+  }
+
+  .hero-icon {
+    width: 3.5rem;
   }
 
   .role-title {
@@ -106,6 +127,14 @@
     font-size: 2.5rem;
     letter-spacing: .75rem;
   }
+
+  .hero-icon-wrapper {
+    width: 13.5rem;
+  }
+
+  .hero-icon {
+    width: 4rem;
+  }
 }
 
 @media only screen and (min-width: 75rem) {
@@ -125,6 +154,14 @@
     font-size: 3rem;
     letter-spacing: 1rem;
   }
+
+  .hero-icon-wrapper {
+    width: 15rem;
+  }
+
+  .hero-icon {
+    width: 5rem;
+  }
 }
 
 @media only screen and (min-width: 112.5rem) {
@@ -143,5 +180,13 @@
   .hero-text {
     font-size: 3.75rem;
     letter-spacing: 1.5rem;
+  }
+
+  .hero-icon-wrapper {
+    width: 17rem;
+  }
+
+  .hero-icon {
+    width: 6rem;
   }
 }
