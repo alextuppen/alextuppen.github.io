@@ -1,10 +1,1 @@
-<svg width="600" height="900" viewBox="0 0 600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="900">
-<ellipse cx="300" cy="450" rx="300" ry="450" fill="white"/>
-</mask>
-<g mask="url(#mask0)">
-<path d="M0 739L300 -1L600 739L510 770L300 249L90 769.5L0 739Z" fill="#222222"/>
-<path d="M250 560V900H350V560H250Z" fill="#222222"/>
-<path d="M5 538L49.5 428H550L595 538H5Z" fill="#17B897"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" fill="none" xmlns:v="https://vecta.io/nano"><mask id="A" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="900"><ellipse cx="300" cy="450" rx="300" ry="450" fill="#fff"/></mask><g mask="url(#A)"><g fill="#222"><path d="M0 739L300-1l300 740-90 31-210-521L90 769.5 0 739zm250-145v306h100V594H250z"/></g><path d="M6 538L50.5 428H549.153L594 538H6Z" fill="#17b897"/></g></svg>
