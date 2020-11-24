@@ -1,5 +1,5 @@
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/heros/flamingos.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../heros/flamingos.jpg");
   margin-top: 4.2rem;
   width: 100%;
   height: calc(100vh - 4.2rem);
@@ -60,19 +60,6 @@
   width: 3rem;
 }
 
-.role-details-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-.role-details {
-  margin: .25rem;
-}
-
-.role-description {
-  margin-top: 1.5rem;
-}
-
 @media only screen and (min-width: 37.5rem) {
   .hero-grid {
     grid-template-areas: 
@@ -98,15 +85,6 @@
 
   .hero-icon {
     width: 3.5rem;
-  }
-
-  .role-title {
-    margin: 1rem auto auto;
-  }
-
-  .role-details-wrapper {
-    flex-direction: row;
-    justify-content: space-between;
   }
 }
 

@@ -4,7 +4,8 @@
     <meta charset='UTF-8'/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/base.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="assets/styles/index/hero.css">
+    <link rel="stylesheet" href="assets/styles/index/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
     <link rel="shortcut icon" href="assets/logo/favicon.ico" type="image/x-icon">
     <title>Alex Tuppen</title>
@@ -26,10 +27,10 @@
           </div>
           <h2 class="hero-text">Full stack developer</h2>
           <div class=hero-icon-wrapper>
-            <a class="button-icon" href="https://www.linkedin.com/in/alextuppen/" target="_blank">
+            <a class="button" href="https://www.linkedin.com/in/alextuppen/" target="_blank">
               <img class="hero-icon" src="assets/icons/websites/linkedin.svg" alt="LinkedIn logo"/>
             </a>
-            <a class="button-icon" href="https://github.com/alextuppen" target="_blank">
+            <a class="button" href="https://github.com/alextuppen" target="_blank">
               <img class="hero-icon" src="assets/icons/websites/github.svg" alt="GitHub logo"/>
             </a>
           </div>
@@ -38,8 +39,12 @@
       <div class="content">
         <h2>Experience</h2>
         <h3 class="role-title">Full stack engineer</h3>
-        <div class="role-tech">
-          <img src="assets/icons/infrastructure/node.svg" title="Node.js" alt="Node.js logo"/>
+        <div class="role-details-wrapper">
+          <p class="role-details">WorldRemit</p>
+          <p class="role-details">March 2020 - Present</p>
+        </div>
+        <div class="role-tech button button-seconday">
+          <img src="assets/icons/infrastructure/node.svg" title="Node.js" alt="Node.js logo">
           <img src="assets/icons/tools/git.svg" title="Git" alt="Git logo"/>
           <img src="assets/icons/tools/npm.svg" title="NPM" alt="NPM logo"/>
           <img src="assets/icons/tools/yarn.svg" title="Yarn" alt="Yarn logo"/>
@@ -52,16 +57,16 @@
           <img src="assets/icons/languages/html.svg" title="HTML" alt="HTML logo"/>
           <img src="assets/icons/languages/css.svg" title="CSS" alt="CSS logo"/>
         </div>
-        <div class="role-details-wrapper">
-          <p class="role-details">WorldRemit</p>
-          <p class="role-details">March 2020 - Present</p>
-        </div>
         <p class="role-description">
 
         </p>
         <hr class="minor">
         <h3 class="role-title">Founder</h3>
-        <div class="role-tech">
+        <div class="role-details-wrapper">
+          <p class="role-details">Armicus</p>
+          <p class="role-details">August 2018 - March 2020</p>
+        </div>
+        <div class="role-tech button button-seconday">
           <img src="assets/icons/platforms/aws.svg" title="AWS" alt="AWS logo"/>
           <img src="assets/icons/platforms/heroku.svg" title="Heroku" alt="Heroku logo"/>
           <img src="assets/icons/infrastructure/node.svg" title="Node.js" alt="Node.js logo"/>
@@ -74,10 +79,6 @@
           <img src="assets/icons/languages/javascript.svg" title="Javascript" alt="Javascript logo"/>
           <img src="assets/icons/languages/html.svg" title="HTML" alt="HTML logo"/>
           <img src="assets/icons/languages/css.svg" title="CSS" alt="CSS logo"/>
-        </div>
-        <div class="role-details-wrapper">
-          <p class="role-details">Armicus</p>
-          <p class="role-details">August 2018 - March 2020</p>
         </div>
         <p class="role-description">
           Unpaid learning sabbatical, the goal was to learn how to architect and build a full-stack software as 
@@ -93,17 +94,45 @@
         </p>
         <hr class="minor">
         <h3 class="role-title">Developer</h3>
-        <div class="role-tech">
-          <img src="assets/icons/platforms/azure.svg" title="Azure" alt="Azure logo"/>
-          <img src="assets/icons/infrastructure/sccm.svg" title="System Center Configuration Manager" alt="System Center Configuration Manager logo"/>
-          <img src="assets/icons/frameworks/dot-net.svg" title=".Net" alt=".Net logo"/>
-          <img src="assets/icons/frameworks/dot-net.svg" title=".Net WPF" alt=".Net WPF logo"/>
-          <img src="assets/icons/languages/powershell.svg" title="PowerShell" alt="PowerShell logo"/>
-          <img src="assets/icons/languages/csharp.svg" title="C#" alt="C# logo"/>
-        </div>
         <div class="role-details-wrapper">
           <p class="role-details">PowerON Platforms</p>
           <p class="role-details">September 2016 - August 2018</p>
+        </div>
+        <div class="role-tech-wrapper button button-seconday">
+          <div class="role-tech">
+            <img src="assets/icons/platforms/azure.svg" title="Azure" alt="Azure logo"/>
+            <img src="assets/icons/infrastructure/sccm.svg" title="System Center Configuration Manager" alt="System Center Configuration Manager logo"/>
+            <img src="assets/icons/frameworks/dot-net.svg" title=".Net" alt=".Net logo"/>
+            <img src="assets/icons/frameworks/dot-net.svg" title=".Net WPF" alt=".Net WPF logo"/>
+            <img src="assets/icons/languages/powershell.svg" title="PowerShell" alt="PowerShell logo"/>
+            <img src="assets/icons/languages/csharp.svg" title="C#" alt="C# logo"/>
+          </div>
+          <ul class="role-tech-list">
+            <li class="rtl-item">
+              <img src="assets/icons/platforms/azure.svg" title="Azure" alt="Azure logo"/>
+              <span>Azure</span>
+            </li>
+            <li class="rtl-item">
+              <img src="assets/icons/infrastructure/sccm.svg" title="System Center Configuration Manager" alt="System Center Configuration Manager logo"/>
+              <span>System Center Configuration Manager (SCCM)</span>
+            </li>
+            <li class="rtl-item">
+              <img src="assets/icons/frameworks/dot-net.svg" title=".Net" alt=".Net logo"/>
+              <span>.Net</span>
+            </li>
+            <li class="rtl-item">
+              <img src="assets/icons/frameworks/dot-net.svg" title=".Net WPF" alt=".Net WPF logo"/>
+              <span>.Net WPF</span>
+            </li>
+            <li class="rtl-item">
+              <img src="assets/icons/languages/powershell.svg" title="PowerShell" alt="PowerShell logo"/>
+              <span>PowerShell</span>
+            </li>
+            <li class="rtl-item">
+              <img src="assets/icons/languages/csharp.svg" title="C#" alt="C# logo"/>
+              <span>C#</span>
+            </li>
+          </ul>
         </div>
         <p class="role-description">
           Working in a small team has afforded a wide number of opportunities, challenges and responsibilities. 
