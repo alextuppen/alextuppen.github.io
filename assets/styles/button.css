@@ -1,4 +1,24 @@
-a.button {
+.button {
+  box-shadow: 0px 8px 15px var(--neutral);
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.button:hover {
+  transform: translateY(-0.2rem);
+}
+
+.button:active {
+  transform: translateY(0.2rem);
+}
+
+
+.button-primary {
   background-color: var(--primary);
   color: var(--neutral-light);
   text-decoration: none;
@@ -10,39 +30,26 @@ a.button {
   justify-content: center;
   align-content: center;
   padding: 6px 12px;
-  box-shadow: 0px 8px 15px var(--neutral);
-  white-space: nowrap;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
 }
 
-a.button:hover {
-  transform: translateY(-0.2rem);
+.button-primary:hover {
   background-color: var(--primary-dark);
 }
 
-a.button:active {
-  transform: translateY(0.2rem);
+.button-primary:active {
   background-color: var(--primary-light);
 }
 
-a.button-icon {
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
+
+.button-seconday {
+  border: .25rem solid var(--primary);
+  border-radius: .25rem;
 }
 
-a.button-icon:hover {
-  transform: translateY(-0.2rem);
+.button-seconday:hover {
+  border-color: var(--primary-dark);
 }
 
-a.button-icon:active {
-  transform: translateY(0.2rem);
+.button-seconday:active {
+  border-color: var(--primary-light);
 }
