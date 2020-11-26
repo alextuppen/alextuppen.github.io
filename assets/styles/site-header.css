@@ -6,6 +6,7 @@
   background-color: var(--neutral-light);
   padding: 1rem 0;
   border-bottom: solid .2rem var(--neutral-dark);
+  z-index: 1000;
 }
 
 .site-header-wrapper {

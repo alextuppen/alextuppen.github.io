@@ -1,0 +1,82 @@
+.role-tech-list {
+  margin: unset;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-top: .25rem solid var(--neutral);
+  text-align: left;
+}
+
+.rtl-item {
+  margin: .5rem;
+  display: inline-flex;
+  justify-content: left;
+  align-items: center;
+  list-style-type: none;
+}
+
+.rtl-item > img {
+  height: 1.5rem;
+}
+
+.rtl-item > span {
+  margin-left: .5rem;
+  white-space: normal;
+}
+
+.rtl-hidden, .rtl-visible {
+  overflow: hidden;
+}
+
+.rtl-hidden > ul, .rtl-visible > ul {
+  transition: margin-top 1s ease-in-out;
+}
+
+.rtl-poweron > ul {
+  margin-top: -125%;
+}
+
+.rtl-worldremit > ul, .rtl-armicus > ul {
+  margin-top: -250%;
+}
+
+@media only screen and (min-width: 37.5rem) {
+  .rtl-item > img {
+    height: 1.75rem;
+  }
+
+  .rtl-item > span {
+    margin-left: .75rem;
+  }
+
+  .rtl-poweron > ul {
+    margin-top: -75%;
+  }
+  
+  .rtl-worldremit > ul, .rtl-armicus > ul {
+    margin-top: -125%;
+  }
+}
+
+@media only screen and (min-width: 56.25rem) {}
+
+@media only screen and (min-width: 75rem) {
+  .rtl-item > span {
+    margin-left: 1rem;
+  }
+
+  .rtl-item > img {
+    height: 2rem;
+  }
+
+  .rtl-poweron > ul {
+    margin-top: -100%;
+  }
+}
+
+@media only screen and (min-width: 112.5rem) {}
+
+.rtl-visible > ul {
+  margin-top: 0;
+}

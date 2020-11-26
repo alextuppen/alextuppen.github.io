@@ -1,5 +1,4 @@
 .button {
-  box-shadow: 0px 8px 15px var(--neutral);
   white-space: nowrap;
   cursor: pointer;
   -webkit-user-select: none;
@@ -17,6 +16,9 @@
   transform: translateY(0.2rem);
 }
 
+.button-primary, .button-seconday {
+  box-shadow: 0px 8px 15px var(--neutral);
+}
 
 .button-primary {
   background-color: var(--primary);

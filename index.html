@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/base.css">
     <link rel="stylesheet" href="assets/styles/index/hero.css">
+    <link rel="stylesheet" href="assets/styles/index/role-tech-list.css">
     <link rel="stylesheet" href="assets/styles/index/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
     <link rel="shortcut icon" href="assets/logo/favicon.ico" type="image/x-icon">
@@ -43,19 +44,73 @@
           <p class="role-details">WorldRemit</p>
           <p class="role-details">March 2020 - Present</p>
         </div>
-        <div class="role-tech button button-seconday">
-          <img src="assets/icons/infrastructure/node.svg" title="Node.js" alt="Node.js logo">
-          <img src="assets/icons/tools/git.svg" title="Git" alt="Git logo"/>
-          <img src="assets/icons/tools/npm.svg" title="NPM" alt="NPM logo"/>
-          <img src="assets/icons/tools/yarn.svg" title="Yarn" alt="Yarn logo"/>
-          <img src="assets/icons/tools/eslint.svg" title="Eslint" alt="Eslint logo"/>
-          <img src="assets/icons/tools/prettier.svg" title="Prettier" alt="Prettier logo"/>
-          <img src="assets/icons/frameworks/react.svg" title="React" alt="React logo"/>
-          <img src="assets/icons/frameworks/react.svg" title="React Native" alt="React Native logo"/>
-          <img src="assets/icons/languages/javascript.svg" title="Javascript" alt="Javascript logo"/>
-          <img src="assets/icons/languages/typescript.svg" title="Typescript" alt="Typescript logo"/>
-          <img src="assets/icons/languages/html.svg" title="HTML" alt="HTML logo"/>
-          <img src="assets/icons/languages/css.svg" title="CSS" alt="CSS logo"/>
+        <div class="role-tech-wrapper button button-seconday" onclick="toggleRtl('rtl-worldremit')">
+          <div class="role-tech">
+            <img src="assets/icons/infrastructure/node.svg" title="Node.js" alt="Node.js logo"/>
+            <img src="assets/icons/tools/git.svg" title="Git" alt="Git logo"/>
+            <img src="assets/icons/tools/npm.svg" title="NPM" alt="NPM logo"/>
+            <img src="assets/icons/tools/yarn.svg" title="Yarn" alt="Yarn logo"/>
+            <img src="assets/icons/tools/eslint.svg" title="Eslint" alt="Eslint logo"/>
+            <img src="assets/icons/tools/prettier.svg" title="Prettier" alt="Prettier logo"/>
+            <img src="assets/icons/frameworks/react.svg" title="React" alt="React logo"/>
+            <img src="assets/icons/frameworks/react.svg" title="React Native" alt="React Native logo"/>
+            <img src="assets/icons/languages/javascript.svg" title="JavaScript" alt="JavaScript logo"/>
+            <img src="assets/icons/languages/typescript.svg" title="Typescript" alt="Typescript logo"/>
+            <img src="assets/icons/languages/html.svg" title="HTML" alt="HTML logo"/>
+            <img src="assets/icons/languages/css.svg" title="CSS" alt="CSS logo"/>
+          </div>
+          <div class="rtl-hidden rtl-worldremit" id="rtl-worldremit">
+            <ul class="role-tech-list">
+              <li class="rtl-item">
+                <img src="assets/icons/infrastructure/node.svg" title="Node.js" alt="Node.js logo"/>
+                <span>Node.js</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/tools/git.svg" title="Git" alt="Git logo"/>
+                <span>Git</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/tools/npm.svg" title="NPM" alt="NPM logo"/>
+                <span>Node Package Manager (NPM)</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/tools/yarn.svg" title="Yarn" alt="Yarn logo"/>
+                <span>Yarn</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/tools/eslint.svg" title="Eslint" alt="Eslint logo"/>
+                <span>Eslint</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/tools/prettier.svg" title="Prettier" alt="Prettier logo"/>
+                <span>Prettier</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/frameworks/react.svg" title="React" alt="React logo"/>
+                <span>React</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/frameworks/react.svg" title="React Native" alt="React Native logo"/>
+                <span>React Native</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/languages/javascript.svg" title="JavaScript" alt="JavaScript logo"/>
+                <span>JavaScript</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/languages/typescript.svg" title="TypeScript" alt="TypeScript logo"/>
+                <span>TypeScript</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/languages/html.svg" title="HTML" alt="HTML logo"/>
+                <span>Hyper Text Markup Language (HTML)</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/languages/css.svg" title="CSS" alt="CSS logo"/>
+                <span>Cascading Style Sheets (CSS)</span>
+              </li>
+            </ul>
+          </div>
         </div>
         <p class="role-description">
 
@@ -66,23 +121,77 @@
           <p class="role-details">Armicus</p>
           <p class="role-details">August 2018 - March 2020</p>
         </div>
-        <div class="role-tech button button-seconday">
-          <img src="assets/icons/platforms/aws.svg" title="AWS" alt="AWS logo"/>
-          <img src="assets/icons/platforms/heroku.svg" title="Heroku" alt="Heroku logo"/>
-          <img src="assets/icons/infrastructure/node.svg" title="Node.js" alt="Node.js logo"/>
-          <img src="assets/icons/infrastructure/postgresql.svg" title="PostgreSQL" alt="PostgreSQL logo"/>
-          <img src="assets/icons/infrastructure/graphql.svg" title="GraphQL" alt="GraphQL logo"/>
-          <img src="assets/icons/tools/git.svg" title="Git" alt="Git logo"/>
-          <img src="assets/icons/tools/npm.svg" title="NPM" alt="NPM logo"/>
-          <img src="assets/icons/frameworks/apollo.svg" title="Apollo" alt="Apollo graphql logo"/>
-          <img src="assets/icons/frameworks/react.svg" title="React" alt="React logo"/>
-          <img src="assets/icons/languages/javascript.svg" title="Javascript" alt="Javascript logo"/>
-          <img src="assets/icons/languages/html.svg" title="HTML" alt="HTML logo"/>
-          <img src="assets/icons/languages/css.svg" title="CSS" alt="CSS logo"/>
+        <div class="role-tech-wrapper button button-seconday" onclick="toggleRtl('rtl-armicus')">
+          <div class="role-tech">
+            <img src="assets/icons/platforms/aws.svg" title="AWS" alt="AWS logo"/>
+            <img src="assets/icons/platforms/heroku.svg" title="Heroku" alt="Heroku logo"/>
+            <img src="assets/icons/infrastructure/node.svg" title="Node.js" alt="Node.js logo"/>
+            <img src="assets/icons/infrastructure/postgresql.svg" title="PostgreSQL" alt="PostgreSQL logo"/>
+            <img src="assets/icons/infrastructure/graphql.svg" title="GraphQL" alt="GraphQL logo"/>
+            <img src="assets/icons/tools/git.svg" title="Git" alt="Git logo"/>
+            <img src="assets/icons/tools/npm.svg" title="NPM" alt="NPM logo"/>
+            <img src="assets/icons/frameworks/apollo.svg" title="Apollo" alt="Apollo graphql logo"/>
+            <img src="assets/icons/frameworks/react.svg" title="React" alt="React logo"/>
+            <img src="assets/icons/languages/javascript.svg" title="JavaScript" alt="JavaScript logo"/>
+            <img src="assets/icons/languages/html.svg" title="HTML" alt="HTML logo"/>
+            <img src="assets/icons/languages/css.svg" title="CSS" alt="CSS logo"/>
+          </div>
+          <div class="rtl-hidden rtl-armicus" id="rtl-armicus">
+            <ul class="role-tech-list">
+              <li class="rtl-item">
+                <img src="assets/icons/platforms/aws.svg" title="AWS" alt="AWS logo"/>
+                <span>Amazon Web Services (AWS)</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/platforms/heroku.svg" title="Heroku" alt="Heroku logo"/>
+                <span>Heroku</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/infrastructure/node.svg" title="Node.js" alt="Node.js logo"/>
+                <span>Node.js</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/infrastructure/postgresql.svg" title="PostgreSQL" alt="PostgreSQL logo"/>
+                <span>PostgreSQL</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/infrastructure/graphql.svg" title="GraphQL" alt="GraphQL logo"/>
+                <span>GraphQL</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/tools/git.svg" title="Git" alt="Git logo"/>
+                <span>Git</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/tools/npm.svg" title="NPM" alt="NPM logo"/>
+                <span>Node Package Manager (NPM)</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/frameworks/apollo.svg" title="Apollo" alt="Apollo graphql logo"/>
+                <span>Apollo GraphQL</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/frameworks/react.svg" title="React" alt="React logo"/>
+                <span>React</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/languages/javascript.svg" title="JavaScript" alt="JavaScript logo"/>
+                <span>JavaScript</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/languages/html.svg" title="HTML" alt="HTML logo"/>
+                <span>Hyper Text Markup Language (HTML)</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/languages/css.svg" title="CSS" alt="CSS logo"/>
+                <span>Cascading Style Sheets (CSS)</span>
+              </li>
+            </ul>
+          </div>
         </div>
         <p class="role-description">
           Unpaid learning sabbatical, the goal was to learn how to architect and build a full-stack software as 
-          a service product. Written entirely in Javascript and hosted on AWS and Heroku, the scope of this project 
+          a service product. Written entirely in JavaScript and hosted on AWS and Heroku, the scope of this project 
           has afforded a significant amount of personal growth and experience. Initially a blank slate, the project 
           started with researching which technologies to use; React and NodeJS were chosen for the front and back 
           ends respectively because they share the same language, with GraphQL used for the API, all are free open 
@@ -98,7 +207,7 @@
           <p class="role-details">PowerON Platforms</p>
           <p class="role-details">September 2016 - August 2018</p>
         </div>
-        <div class="role-tech-wrapper button button-seconday">
+        <div class="role-tech-wrapper button button-seconday" onclick="toggleRtl('rtl-poweron')">
           <div class="role-tech">
             <img src="assets/icons/platforms/azure.svg" title="Azure" alt="Azure logo"/>
             <img src="assets/icons/infrastructure/sccm.svg" title="System Center Configuration Manager" alt="System Center Configuration Manager logo"/>
@@ -107,32 +216,34 @@
             <img src="assets/icons/languages/powershell.svg" title="PowerShell" alt="PowerShell logo"/>
             <img src="assets/icons/languages/csharp.svg" title="C#" alt="C# logo"/>
           </div>
-          <ul class="role-tech-list">
-            <li class="rtl-item">
-              <img src="assets/icons/platforms/azure.svg" title="Azure" alt="Azure logo"/>
-              <span>Azure</span>
-            </li>
-            <li class="rtl-item">
-              <img src="assets/icons/infrastructure/sccm.svg" title="System Center Configuration Manager" alt="System Center Configuration Manager logo"/>
-              <span>System Center Configuration Manager (SCCM)</span>
-            </li>
-            <li class="rtl-item">
-              <img src="assets/icons/frameworks/dot-net.svg" title=".Net" alt=".Net logo"/>
-              <span>.Net</span>
-            </li>
-            <li class="rtl-item">
-              <img src="assets/icons/frameworks/dot-net.svg" title=".Net WPF" alt=".Net WPF logo"/>
-              <span>.Net WPF</span>
-            </li>
-            <li class="rtl-item">
-              <img src="assets/icons/languages/powershell.svg" title="PowerShell" alt="PowerShell logo"/>
-              <span>PowerShell</span>
-            </li>
-            <li class="rtl-item">
-              <img src="assets/icons/languages/csharp.svg" title="C#" alt="C# logo"/>
-              <span>C#</span>
-            </li>
-          </ul>
+          <div class="rtl-hidden rtl-poweron" id="rtl-poweron">
+            <ul class="role-tech-list">
+              <li class="rtl-item">
+                <img src="assets/icons/platforms/azure.svg" title="Azure" alt="Azure logo"/>
+                <span>Azure</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/infrastructure/sccm.svg" title="System Center Configuration Manager" alt="System Center Configuration Manager logo"/>
+                <span>System Center Configuration <br>Manager (SCCM)</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/frameworks/dot-net.svg" title=".Net" alt=".Net logo"/>
+                <span>.Net</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/frameworks/dot-net.svg" title=".Net WPF" alt=".Net WPF logo"/>
+                <span>.Net WPF</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/languages/powershell.svg" title="PowerShell" alt="PowerShell logo"/>
+                <span>PowerShell</span>
+              </li>
+              <li class="rtl-item">
+                <img src="assets/icons/languages/csharp.svg" title="C#" alt="C# logo"/>
+                <span>C#</span>
+              </li>
+            </ul>
+          </div>
         </div>
         <p class="role-description">
           Working in a small team has afforded a wide number of opportunities, challenges and responsibilities. 
@@ -176,4 +287,5 @@
       </div>
     </main>
   </body>
+  <script src="assets/scripts/role-tech-list.js"></script>
 </html>
