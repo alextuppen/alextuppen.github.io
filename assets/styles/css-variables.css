@@ -6,20 +6,37 @@
   --secondary-light: #4d83fa;
   --secondary: #014ff9;
   --secondary-dark: #003fc7;
-  --neutral-light: #f4f4f4;
-  --neutral: #949494;
-  /* --neutral-dark: #ffffff; */
-  --neutral-dark: #181100;
-
   --text: #ffffff;
-  --background: #120f08;
+  --base-colour: #120f08;
+
+  /* Elevations */
   --elevation-1: #1E1E1E;
   --elevation-2: #232323;
   --elevation-3: #252525;
   --elevation-4: #272727;
-  --elevation-5: #272727;
-  --elevation-6: #2C2C2C;
-  --elevation-7: #2F2F2F;
-  --elevation-8: #333333;
+  --elevation-5: #2C2C2C;
+  --elevation-6: #2F2F2F;
+  --elevation-7: #333333;
+  --elevation-8: #353535;
   --elevation-9: #383838;
+
+  /* Layout */
+  --border-radius: .5rem;
+  --half-padding: calc(var(--padding) / 2);
+  --padding: 1rem;
+  --double-padding: calc(var(--padding) * 2);
+}
+
+@media only screen and (min-width: 37.5rem) {
+  :root {
+    --border-radius: .75rem;
+    --padding: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 56.25rem) {
+  :root {
+    --border-radius: 1rem;
+    --padding: 1.5rem;
+  }
 }
