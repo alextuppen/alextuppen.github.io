@@ -1,9 +1,25 @@
 :root {
   /* Colour palette */
-  --primary-light: #2DCCA7;
-  --primary: #17B897;
-  --primary-dark: #079A82;
-  --neutral-light: #F7F7F7;
-  --neutral: #7E7E7E;
-  --neutral-dark: #222222;
+  --primary-light: #fac44d;
+  --primary: #F9AB01;
+  --primary-dark: #c78800;
+  --secondary-light: #4d83fa;
+  --secondary: #014ff9;
+  --secondary-dark: #003fc7;
+  --neutral-light: #f4f4f4;
+  --neutral: #949494;
+  /* --neutral-dark: #ffffff; */
+  --neutral-dark: #181100;
+
+  --text: #ffffff;
+  --background: #120f08;
+  --elevation-1: #1E1E1E;
+  --elevation-2: #232323;
+  --elevation-3: #252525;
+  --elevation-4: #272727;
+  --elevation-5: #272727;
+  --elevation-6: #2C2C2C;
+  --elevation-7: #2F2F2F;
+  --elevation-8: #333333;
+  --elevation-9: #383838;
 }
