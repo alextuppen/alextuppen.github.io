@@ -51,7 +51,7 @@
   }
 
   .rtl-poweron > ul {
-    margin-top: -75%;
+    margin-top: -100%;
   }
   
   .rtl-worldremit > ul, .rtl-armicus > ul {
@@ -68,10 +68,6 @@
 
   .rtl-item > img {
     height: 2rem;
-  }
-
-  .rtl-poweron > ul {
-    margin-top: -100%;
   }
 }
 

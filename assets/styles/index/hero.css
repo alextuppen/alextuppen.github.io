@@ -34,6 +34,7 @@
 
 .hero-title {
   margin: auto;
+  color: var(--neutral-light);
   font-size: 4rem;
   line-height: 1;
 }
