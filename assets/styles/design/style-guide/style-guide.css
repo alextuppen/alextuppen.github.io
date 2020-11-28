@@ -1,0 +1,122 @@
+.colour-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.colour-square {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 12rem;
+  height: 12rem;
+  border-radius: var(--border-radius);
+  color: var(--neutral-light);
+  margin: var(--padding);
+}
+
+.colour-text {
+  margin: var(--half-padding);
+}
+
+.primary-light {
+  background-color: var(--primary-light);
+}
+
+.primary {
+  background-color: var(--primary);
+}
+
+.primary-dark {
+  background-color: var(--primary-dark);
+}
+
+.secondary-light {
+  background-color: var(--secondary-light);
+}
+
+.secondary {
+  background-color: var(--secondary);
+}
+
+.secondary-dark {
+  background-color: var(--secondary-dark);
+}
+
+.text {
+  background-color: var(--text);
+}
+
+.base {
+  background-color: var(--base-colour);
+}
+
+.primary-light > *,
+.primary > *,
+.primary-dark > *,
+.text > * {
+  color: var(--base-colour);
+}
+
+.elevation-gradient-wrapper {
+  width: 90%;
+}
+
+.elevation-gradient {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.elevation {
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+.elevation:first-child {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+
+.elevation:last-child {
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+.monserrat-example {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 37.5rem) {
+  .elevation-gradient {
+    flex-direction: row;
+  }
+
+  .elevation {
+    padding: 3rem 0;
+  }
+
+  .elevation:first-child {
+    border-top-right-radius: unset;
+    border-bottom-left-radius: var(--border-radius);
+  }
+  
+  .elevation:last-child {
+    border-bottom-left-radius: unset;
+    border-top-right-radius: var(--border-radius);
+  }
+}
+
+@media only screen and (min-width: 56.25rem) {
+
+}
+
+@media only screen and (min-width: 75rem) {
+
+}
+
+@media only screen and (min-width: 112.5rem) {
+
+}

@@ -34,7 +34,6 @@
 
 .hero-title {
   margin: auto;
-  color: var(--neutral-light);
   font-size: 4rem;
   line-height: 1;
 }
@@ -42,7 +41,6 @@
 .hero-text {
   grid-area: text;
   margin: auto;
-  color: var(--neutral-light);
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   font-weight: 500;

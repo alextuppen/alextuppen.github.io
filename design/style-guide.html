@@ -4,92 +4,188 @@
     <meta charset='UTF-8'/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/styles/base.css">
-    <link rel="stylesheet" href="style-guide.css">
+    <link rel="stylesheet" href="../assets/styles/design/style-guide/style-guide.css">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
     <link rel="shortcut icon" href="assets/logo/favicon.ico" type="image/x-icon">
     <title>Alex Tuppen - Design</title>
   </head>
   <body class="body-wrapper">
-    <header class="site-header">
+    <header class="site-header elev-9">
       <a class="site-header-wrapper" href="/">
         <image class="site-header-logo" src="../assets/logo/grey.svg"/>
         <span class="site-header-text">Alex Tuppen</span>
       </a>
     </header>
     <main class="body">
-      <header class="body-header">
+      <header class="body-header elev-4">
         <h1 class="body-header-text">Style guide</h1>
       </header>
       <div class="content">
         <h2>Colour palette</h2>
-        <h3>Primary</h3>
-        <div class="colour-block">
-          <div class="colour-square primary-light">
-            <div class="colour-square-wrapper">
-              <h4>Shamrock</h4>
+        <div class="card elev-1">
+          <h3>Primary</h3>
+          <p>
+            The primary colour of the website is used to provide an accenting splash of colour 
+            or to draw attention. It should be used sparingly so as to retain its importance and 
+            not pollute the dark theme.
+          </p>
+          <div class="colour-block">
+            <div class="colour-square primary-light">
+              <h4>Saffron Mango</h4>
               <span class="colour-text">Primary light</span>
-              <span class="colour-text">#2DCCA7</span>
+              <span class="colour-text">#fac44d</span>
             </div>
-          </div>
-          <div class="colour-square primary">
-            <div class="colour-square-wrapper">
-              <h4>Mountain Meadow</h4>
+            <div class="colour-square primary">
+              <h4>Yellow Sea</h4>
               <span class="colour-text">Primary</span>
-              <span class="colour-text">#17B897</span>
+              <span class="colour-text">#F9AB01</span>
             </div>
-          </div>
-          <div class="colour-square primary-dark">
-            <div class="colour-square-wrapper">
-              <h4>Gossamer</h4>
+            <div class="colour-square primary-dark">
+              <h4>Pirate Gold</h4>
               <span class="colour-text">Primary dark</span>
-              <span class="colour-text">#079A82</span>
+              <span class="colour-text">#c78800</span>
             </div>
           </div>
         </div>
-        <hr class="minor">
-        <h3>Neutrals</h3>
-        <div class="colour-block">
-          <div class="colour-square white-smoke">
-            <div class="colour-square-wrapper">
-              <h4>White Smoke</h4>
-              <span class="colour-text">Neutral light</span>
-              <span class="colour-text">#F7F7F7</span>
+        <div class="card elev-1">
+          <h3>Secondary</h3>
+          <p>
+            An alternative colour to the primary, used to draw attention to something of less 
+            importance. It should not be used for the primary action on page, or to excess so 
+            as to not pollute the dark theme.
+          </p>
+          <div class="colour-block">
+            <div class="colour-square secondary-light">
+              <h4>Dodger Blue</h4>
+              <span class="colour-text">Secondary light</span>
+              <span class="colour-text">#4d83fa</span>
             </div>
-          </div>
-          <div class="colour-square grey">
-            <div class="colour-square-wrapper">
-              <h4>Grey</h4>
-              <span class="colour-text">Neutral</span>
-              <span class="colour-text">#7E7E7E</span>
+            <div class="colour-square secondary">
+              <h4>Blue Ribbon</h4>
+              <span class="colour-text">Secondary</span>
+              <span class="colour-text">#014ff9</span>
             </div>
-          </div>
-          <div class="colour-square nero">
-            <div class="colour-square-wrapper">
-              <h4>Nero</h4>
-              <span class="colour-text">Neutral dark</span>
-              <span class="colour-text">#222222</span>
+            <div class="colour-square secondary-dark">
+              <h4>Cobalt</h4>
+              <span class="colour-text">Secondary dark</span>
+              <span class="colour-text">#003fc7</span>
             </div>
           </div>
         </div>
-        <hr class="major">
+        <div class="card elev-1">
+          <h3>Font & base</h3>
+          <p>
+            All font is pure white, the base colour is used as the page background, 
+            the basis for the elevation gradient, and as a font colour where white 
+            does not provide a high enough contrast. The base colour was created by 
+            overlaying the primary colour on top of Dark Grey (#121212) at 8% opacity.
+          </p>
+          <div class="colour-block">
+            <div class="colour-square text">
+              <h4>White</h4>
+              <span class="colour-text">Text</span>
+              <span class="colour-text">#ffffff</span>
+            </div>
+            <div class="colour-square base">
+              <h4>Eternity</h4>
+              <span class="colour-text">Base</span>
+              <span class="colour-text">#120f08</span>
+            </div>
+          </div>
+        </div>
+        <h2>Layout</h2>
+        <p>
+          The majority of layout is done with CSS grid to take advantage of its powerful capabilities 
+          and allow an easy expansion to more than one column in the future. Where suitable Flexbox is 
+          also used to take advantage of its powerful single dimensional layout, for example the 
+          elevation gradient below.
+        </p>
+        <div class="card elev-1">
+          <h3>Spacing</h3>
+          <p>
+            Spacing is controlled universally with CSS variables, the base --padding variable is 1rem 
+            at the smallest breakpoint increasing to 1.5rem at the medium breakpoint. It is joined by 
+            both --half-padding and --double-padding, calculated from the base variable by dividing by 
+            and multiplying by 2 respectively.
+          </p>
+        </div>
+        <div class="card elev-1">
+          <h3>Breakpoints</h3>
+          <p>
+
+          </p>
+        </div>
+        <div class="card elev-1">
+          <h3>Elevation</h3>
+          <p>
+            Elevation is expressed by adjusting the background colour of elements, a lighter background 
+            appears closer to the viewer and so in front of darker elements. The gradient was created by 
+            overlaying white on the base colour at progressively higher opacities.
+          </p>
+          <div class="elevation-gradient-wrapper card elev-5">
+            <div class="elevation-gradient">
+              <span class="elevation elev-1">
+                1
+              </span>
+              <span class="elevation elev-2">
+                2
+              </span>
+              <span class="elevation elev-3">
+                3
+              </span>
+              <span class="elevation elev-4">
+                4
+              </span>
+              <span class="elevation elev-5">
+                5
+              </span>
+              <span class="elevation elev-6">
+                6
+              </span>
+              <span class="elevation elev-7">
+                7
+              </span>
+              <span class="elevation elev-8">
+                8
+              </span>
+              <span class="elevation elev-9">
+                9
+              </span>
+            </div>
+          </div>
+        </div>
         <h2>Typography</h2>
-        <h3>Montserrat</h3>
-        <span>Logo & h1 - 500 weight</span>
-        <blockquote class="monserrat-example" cite="Hitchhikers Guide to the Galaxy">
-          The ships hung in the sky in much the same way that bricks don't.
-        </blockquote>
-        <a class="button button-primary" href="https://fonts.google.com/specimen/Montserrat" target="_blank">
-          Google fonts
-        </a>
-      <hr class="minor">
-        <h3>Jost</h3>
-        <span>Content - 400 & 600 weight</span>
-        <blockquote cite="Hitchhikers Guide to the Galaxy">
-          The ships hung in the sky in much the same way that bricks don't.
-        </blockquote>
-        <a class="button button-primary" href="https://fonts.google.com/specimen/Jost" target="_blank">
-          Google fonts
-        </a>
+        <p>
+          Fonts were chosen to compliment the logo and provide a clean, modern feel that is easy to read.
+        </p>
+        <div class="card elev-1">
+          <h3>Montserrat</h3>
+          <span>500 weight</span>
+          <p>
+            Montserrat is used once per page in the headline, where its 
+            commanding presence has the greatest impact.
+          </p>
+          <blockquote class="monserrat-example" cite="Hitchhikers Guide to the Galaxy">
+            The ships hung in the sky in much the same way that bricks don't.
+          </blockquote>
+          <a class="button button-primary" href="https://fonts.google.com/specimen/Montserrat" target="_blank">
+            Google fonts
+          </a>
+        </div>
+        <div class="card elev-1">
+          <h3>Jost</h3>
+          <span>400 & 600 weight</span>
+          <p>
+            Less impactful that Montserrat, Jost is used for all other text, predominantly in 400 weight 
+            but 600 is used where greater emphasis is required, for example, in buttons.
+          </p>
+          <blockquote cite="Hitchhikers Guide to the Galaxy">
+            The ships hung in the sky in much the same way that bricks don't.
+          </blockquote>
+          <a class="button button-primary" href="https://fonts.google.com/specimen/Jost" target="_blank">
+            Google fonts
+          </a>
+        </div>
       </div>
     </main>
   </body>

@@ -1,77 +1,8 @@
 @import "https://necolas.github.io/normalize.css/8.0.1/normalize.css";
 @import "css-variables.css";
+@import "typography.css";
 @import "components/body.css";
 @import "components/button.css";
 @import "components/card.css";
 @import "components/elevation.css";
 @import "components/site-header.css";
-
-* {
-  font-family: 'Jost', sans-serif;
-  font-weight: 400;
-}
-
-h2, h3, h4, span, blockquote, p {
-  color: var(--text);
-}
-
-h1 {
-  color: var(--neutral-dark);
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-}
-
-hr {
-  height: .5rem;
-  border: none;
-}
-
-hr.major {
-  width: 90%;
-  background: radial-gradient(ellipse farthest-side at top center, var(--primary), transparent);
-}
-
-hr.minor {
-  width: 70%;
-  background: radial-gradient(ellipse farthest-side at top center, var(--neutral), transparent);
-}
-
-@media only screen and (min-width: 37.5rem) {
-  h2 {
-    font-size: 2rem;
-  }
-
-  h3 {
-    font-size: 1.5rem;
-  }
-
-  h4 {
-    font-size: 1.25rem;
-  }
-
-  p, span, blockquote {
-    font-size: 1.125rem;
-  }
-}
-
-@media only screen and (min-width: 56.25rem) {}
-
-@media only screen and (min-width: 75rem) {
-  h2 {
-    font-size: 2.5rem;
-  }
-
-  h3 {
-    font-size: 2rem;
-  }
-
-  h4 {
-    font-size: 1.75rem;
-  }
-
-  p, span, blockquote {
-    font-size: 1.25rem;
-  }
-}
-
-@media only screen and (min-width: 112.5rem) {}

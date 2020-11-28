@@ -1,19 +1,37 @@
 @import "hero.css";
 @import "role-tech-list.css";
 
-.role-details-wrapper {
-  display: flex;
-  flex-direction: column;
+.role-details {
+  display: grid;
+  grid-template-areas: 
+    "organisation"
+    "location"
+    "time"
+    "type";
+  justify-items: center;
+  align-items: center;
+  gap: var(--half-padding);
 }
 
-.role-details {
-  margin: .25rem;
+.role-organisation {
+  grid-area: organisation;
+}
+
+.role-location {
+  grid-area: location;
+}
+
+.role-time {
+  grid-area: time;
+}
+
+.role-type {
+  grid-area: type;
 }
 
 .role-tech-wrapper {
   display: inline-block;
   max-width: 90%;
-  margin: .5rem;
 }
 
 .role-tech {
@@ -24,22 +42,26 @@
 }
 
 .role-tech > * {
-  margin: .5rem;
-}
-
-.role-description {
-  margin-top: 1.5rem;
+  margin: var(--half-padding);
 }
 
 @media only screen and (min-width: 37.5rem) {
-  .role-title {
-    margin: 0 auto auto;
+  .role-details {
+    width: 50%;
+    grid-template-areas: 
+      "organisation time"
+      "location type";
+    justify-content: space-between;
   }
 
-  .role-details-wrapper {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  .role-organisation,
+  .role-location {
+    justify-self: left;
+  }
+
+  .role-time,
+  .role-type {
+    justify-self: right;
   }
 
   .role-tech > * {
@@ -48,17 +70,9 @@
   }
 }
 
-@media only screen and (min-width: 56.25rem) {
-
-}
-
 @media only screen and (min-width: 75rem) {
   .role-tech > * {
     height: 2rem;
     margin: 1rem;
   }
-}
-
-@media only screen and (min-width: 112.5rem) {
-
 }

@@ -9,24 +9,27 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: var(--background);
+  background-color: var(--base-colour);
 }
 
 .body-header {
   display: flex;
-  background-color: var(--neutral-light);
   padding: 3rem 0;
-  margin-top: 4.2rem;
+  margin-top: 4rem;
   width: 100%;
 }
 
 .body-header-text {
+  color: var(--text);
   font-size: 3rem;
   margin: auto;
 }
 
 .content {
-  margin: auto 1.5rem;
+  margin: var(--double-padding) auto;
+  display: grid;
+  gap: var(--double-padding);
+  grid-template-columns: 1fr;
 }
 
 @media only screen and (min-width: 37.5rem) {
@@ -39,25 +42,24 @@
   }
 
   .content {
-    margin: auto 2.5rem;
+    margin: var(--double-padding);
   }
 }
 
 @media only screen and (min-width: 56.25rem) {
   .content {
-    margin: auto;
-    width: 50rem;
+    max-width: 50rem;
   }
 }
 
 @media only screen and (min-width: 75rem) {
   .content {
-    width: 70rem;
+    max-width: 70rem;
   }
 }
 
 @media only screen and (min-width: 112.5rem) {
   .content {
-    width: 80rem;
+    max-width: 80rem;
   }
 }
