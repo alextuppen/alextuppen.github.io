@@ -17,7 +17,8 @@
 }
 
 .button-primary, .button-seconday {
-  box-shadow: 0px 8px 15px var(--neutral);
+  /* box-shadow: 0px 8px 15px var(--neutral); */
+  border-radius: .5rem;
 }
 
 .button-primary {
@@ -44,8 +45,8 @@
 
 
 .button-seconday {
+  /* background-color: var(--neutral); */
   border: .25rem solid var(--primary);
-  border-radius: .25rem;
 }
 
 .button-seconday:hover {

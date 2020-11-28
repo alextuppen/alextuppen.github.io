@@ -1,16 +1,22 @@
 @import "https://necolas.github.io/normalize.css/8.0.1/normalize.css";
 @import "css-variables.css";
-@import "site-header.css";
-@import "body.css";
-@import "button.css";
+@import "components/body.css";
+@import "components/button.css";
+@import "components/card.css";
+@import "components/elevation.css";
+@import "components/site-header.css";
 
 * {
   font-family: 'Jost', sans-serif;
   font-weight: 400;
 }
 
+h2, h3, h4, span, blockquote, p {
+  color: var(--text);
+}
+
 h1 {
-  color: var(--neutral-light);
+  color: var(--neutral-dark);
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
