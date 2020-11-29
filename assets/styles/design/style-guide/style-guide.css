@@ -71,7 +71,7 @@
 
 .elevation {
   flex-grow: 1;
-  padding: 2rem;
+  padding: var(--double-padding);
 }
 
 .elevation:first-child {
@@ -100,7 +100,7 @@ blockquote {
   }
 
   .elevation {
-    padding: 3rem 0;
+    padding: var(--double-padding) 0;
   }
 
   .elevation:first-child {

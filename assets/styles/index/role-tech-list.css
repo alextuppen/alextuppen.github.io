@@ -1,6 +1,6 @@
 .role-tech-list {
   margin: unset;
-  padding: 1rem;
+  padding: var(--padding);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -21,7 +21,7 @@
 }
 
 .rtl-item > span {
-  margin-left: .5rem;
+  margin-left: var(--padding);
   white-space: normal;
 }
 
@@ -46,10 +46,6 @@
     height: 1.75rem;
   }
 
-  .rtl-item > span {
-    margin-left: .75rem;
-  }
-
   .rtl-poweron > ul {
     margin-top: -100%;
   }
@@ -59,19 +55,11 @@
   }
 }
 
-@media only screen and (min-width: 56.25rem) {}
-
 @media only screen and (min-width: 75rem) {
-  .rtl-item > span {
-    margin-left: 1rem;
-  }
-
   .rtl-item > img {
     height: 2rem;
   }
 }
-
-@media only screen and (min-width: 112.5rem) {}
 
 .rtl-visible > ul {
   margin-top: 0;

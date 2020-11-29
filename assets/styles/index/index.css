@@ -1,6 +1,17 @@
 @import "hero.css";
 @import "role-tech-list.css";
 
+.welcome-buttons {
+  width: 90%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome-buttons > * {
+  margin: var(--padding) auto;
+}
+
 .role-details {
   display: grid;
   grid-template-areas: 
@@ -46,6 +57,14 @@
 }
 
 @media only screen and (min-width: 37.5rem) {
+  .welcome-buttons {
+    flex-direction: row;
+  }
+  
+  .welcome-buttons > * {
+    margin: 0 var(--padding);
+  }
+
   .role-details {
     width: 75%;
     grid-template-areas: 
@@ -66,13 +85,11 @@
 
   .role-tech > * {
     height: 1.75rem;
-    margin: .75rem;
   }
 }
 
 @media only screen and (min-width: 75rem) {
   .role-tech > * {
     height: 2rem;
-    margin: 1rem;
   }
 }

@@ -3,7 +3,7 @@
   top: 0;
   width: 100%;
   display: flex;
-  padding: 1rem 0;
+  padding: var(--padding) 0;
   z-index: 1000;
 }
 
@@ -21,13 +21,14 @@
 }
 
 .site-header-logo {
-  height: 2rem;
+  height: var(--double-padding);
 }
 
 .site-header-text {
   color: var(--text);
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: 1.5rem;
-  margin: 0 .5rem
+  font-size: var(--double-padding);
+  line-height: var(--double-padding);
+  margin-left: var(--padding);
 }
