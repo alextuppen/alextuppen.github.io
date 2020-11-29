@@ -21,14 +21,14 @@
 }
 
 .site-header-logo {
-  height: var(--double-padding);
+  height: var(--padding-double);
 }
 
 .site-header-text {
   color: var(--text);
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: var(--double-padding);
-  line-height: var(--double-padding);
+  font-size: var(--padding-double);
+  line-height: var(--padding-double);
   margin-left: var(--padding);
 }

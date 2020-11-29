@@ -16,7 +16,7 @@
 }
 
 .colour-text {
-  margin: var(--half-padding);
+  margin: var(--padding-half);
 }
 
 .primary-light {
@@ -71,7 +71,7 @@
 
 .elevation {
   flex-grow: 1;
-  padding: var(--double-padding);
+  padding: var(--padding-double);
 }
 
 .elevation:first-child {
@@ -91,7 +91,7 @@
 
 blockquote {
   font-size: 2rem;
-  padding: var(--double-padding);
+  padding: var(--padding-double);
 }
 
 @media only screen and (min-width: 37.5rem) {
@@ -100,7 +100,7 @@ blockquote {
   }
 
   .elevation {
-    padding: var(--double-padding) 0;
+    padding: var(--padding-double) 0;
   }
 
   .elevation:first-child {

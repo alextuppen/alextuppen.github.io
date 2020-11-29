@@ -23,15 +23,16 @@
 
 .button-primary {
   background-color: var(--primary);
+  transition: background-color .25s ease-in-out;
   color: var(--base-colour);
   text-decoration: none;
   letter-spacing: .1rem;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   font-weight: 600;
   display: inline-flex;
   justify-content: center;
   align-content: center;
-  padding: var(--half-padding) var(--padding);
+  padding: var(--padding-half) var(--padding);
 }
 
 .button-primary:hover {
@@ -44,6 +45,8 @@
 
 .button-seconday {
   border: .25rem solid var(--primary);
+  transition: border .25s;
+  background-color: var(--primary-dark);
 }
 
 .button-seconday:hover {

@@ -15,7 +15,7 @@
     "title"
     "text"
     "icons";
-  gap: var(--double-padding);
+  gap: var(--padding-double);
   justify-items: center;
   align-items: center;
   margin: auto;

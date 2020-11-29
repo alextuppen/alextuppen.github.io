@@ -14,8 +14,8 @@
 
 .body-header {
   display: flex;
-  padding: var(--double-padding) 0;
-  margin-top: calc(var(--double-padding) * 2);
+  padding: var(--padding-double) 0;
+  margin-top: calc(var(--padding-double) * 2);
   width: 100%;
 }
 
@@ -26,9 +26,9 @@
 }
 
 .content {
-  margin: var(--double-padding) auto;
+  margin: var(--padding-double) auto;
   display: grid;
-  gap: var(--double-padding);
+  gap: var(--padding-double);
   grid-template-columns: 1fr;
 }
 
@@ -38,7 +38,7 @@
   }
 
   .content {
-    margin: var(--double-padding);
+    margin: var(--padding-double);
   }
 }
 

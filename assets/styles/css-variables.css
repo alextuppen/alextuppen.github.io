@@ -22,9 +22,9 @@
 
   /* Layout */
   --border-radius: .5rem;
-  --half-padding: calc(var(--padding) / 2);
+  --padding-half: calc(var(--padding) / 2);
   --padding: 1rem;
-  --double-padding: calc(var(--padding) * 2);
+  --padding-double: calc(var(--padding) * 2);
 }
 
 @media only screen and (min-width: 37.5rem) {
