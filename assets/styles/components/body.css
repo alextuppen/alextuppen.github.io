@@ -14,7 +14,7 @@
 
 .body-header {
   display: flex;
-  padding: 3rem 0;
+  padding: var(--double-padding) 0;
   margin-top: 4rem;
   width: 100%;
 }
@@ -33,10 +33,6 @@
 }
 
 @media only screen and (min-width: 37.5rem) {
-  .body-header {
-    padding: 4rem 0;
-  }
-  
   .body-header-text {
     font-size: 5rem;
   }

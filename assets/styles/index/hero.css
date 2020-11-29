@@ -15,7 +15,7 @@
     "title"
     "text"
     "icons";
-  gap: 1.5rem;
+  gap: var(--double-padding);
   justify-items: center;
   align-items: center;
   margin: auto;
@@ -64,7 +64,6 @@
       "logo title"
       "text text"
       "icons icons";
-    gap: 1.75rem;
   }
 
   .hero-title {
@@ -87,10 +86,6 @@
 }
 
 @media only screen and (min-width: 56.25rem) {
-  .hero-grid {
-    gap: 2.25rem;
-  }
-
   .hero-logo {
     width: 12rem;
   }
@@ -114,10 +109,6 @@
 }
 
 @media only screen and (min-width: 75rem) {
-  .hero-grid {
-    gap: 2.75rem;
-  }
-
   .hero-logo {
     width: 16rem;
   }
@@ -141,10 +132,6 @@
 }
 
 @media only screen and (min-width: 112.5rem) {
-  .hero-grid {
-    gap: 3.5rem;
-  }
-
   .hero-logo {
     width: 20rem;
   }

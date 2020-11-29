@@ -2,7 +2,7 @@
 <html lang='en'>
   <head>
     <meta charset='UTF-8'/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
     <link rel="stylesheet" href="../assets/styles/base.css">
     <link rel="stylesheet" href="../assets/styles/design/style-guide/style-guide.css">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
@@ -11,7 +11,7 @@
   </head>
   <body class="body-wrapper">
     <header class="site-header elev-9">
-      <a class="site-header-wrapper" href="/">
+      <a class="site-header-wrapper" href="../index.html">
         <image class="site-header-logo" src="../assets/logo/grey.svg"/>
         <span class="site-header-text">Alex Tuppen</span>
       </a>
@@ -75,7 +75,7 @@
         <div class="card elev-1">
           <h3>Font & base</h3>
           <p>
-            All font is pure white, the base colour is used as the page background, 
+            All font is pure white by default, the base colour is used as the page background, 
             the basis for the elevation gradient, and as a font colour where white 
             does not provide a high enough contrast. The base colour was created by 
             overlaying the primary colour on top of Dark Grey (#121212) at 8% opacity.
@@ -94,25 +94,21 @@
           </div>
         </div>
         <h2>Layout</h2>
-        <p>
-          The majority of layout is done with CSS grid to take advantage of its powerful capabilities 
-          and allow an easy expansion to more than one column in the future. Where suitable Flexbox is 
-          also used to take advantage of its powerful single dimensional layout, for example the 
-          elevation gradient below.
-        </p>
         <div class="card elev-1">
           <h3>Spacing</h3>
           <p>
             Spacing is controlled universally with CSS variables, the base --padding variable is 1rem 
             at the smallest breakpoint increasing to 1.5rem at the medium breakpoint. It is joined by 
-            both --half-padding and --double-padding, calculated from the base variable by dividing by 
+            both --half-padding and --double-padding, calculated from the base variable by dividing 
             and multiplying by 2 respectively.
           </p>
         </div>
         <div class="card elev-1">
           <h3>Breakpoints</h3>
           <p>
-
+            This website is designed to be mobile first with additional breakpoints at the page widths 
+            37.5rem, 56.25rem, 75rem and 112.5rem. These widths were deliberately chosen as they fall 
+            between the most commonly used screen sizes. 
           </p>
         </div>
         <div class="card elev-1">
@@ -155,18 +151,15 @@
           </div>
         </div>
         <h2>Typography</h2>
-        <p>
-          Fonts were chosen to compliment the logo and provide a clean, modern feel that is easy to read.
-        </p>
         <div class="card elev-1">
           <h3>Montserrat</h3>
           <span>500 weight</span>
           <p>
-            Montserrat is used once per page in the headline, where its 
+            Montserrat is used once per page in the heading, where its 
             commanding presence has the greatest impact.
           </p>
           <blockquote class="monserrat-example" cite="Hitchhikers Guide to the Galaxy">
-            The ships hung in the sky in much the same way that bricks don't.
+            "The ships hung in the sky in much the same way that bricks don't."
           </blockquote>
           <a class="button button-primary" href="https://fonts.google.com/specimen/Montserrat" target="_blank">
             Google fonts
@@ -180,7 +173,7 @@
             but 600 is used where greater emphasis is required, for example, in buttons.
           </p>
           <blockquote cite="Hitchhikers Guide to the Galaxy">
-            The ships hung in the sky in much the same way that bricks don't.
+            "The ships hung in the sky in much the same way that bricks don't."
           </blockquote>
           <a class="button button-primary" href="https://fonts.google.com/specimen/Jost" target="_blank">
             Google fonts
