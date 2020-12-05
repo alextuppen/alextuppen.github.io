@@ -1,0 +1,29 @@
+table {
+  color: white;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: var(--padding-half);
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+}
+
+tr:first-child > * {
+  border-top: none;
+}
+
+tr :first-child {
+  text-align: right;
+  border-left: none;
+}
+
+@media only screen and (max-width: 37.5rem) {
+  tr :first-child {
+    padding-left: 0;
+  }
+  
+  tr :last-child {
+    padding-right: 0;
+  }
+}

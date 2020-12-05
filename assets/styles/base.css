@@ -6,6 +6,7 @@
 @import "components/card.css";
 @import "components/elevation.css";
 @import "components/site-header.css";
+@import "components/table.css";
 
 section, article, aside, footer, header, nav {
   display: block;

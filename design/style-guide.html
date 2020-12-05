@@ -97,20 +97,90 @@
       <section class="content">
         <h2>Layout</h2>
         <div class="card elev-1">
-          <h3>Spacing</h3>
-          <p>
-            Spacing is controlled universally with CSS variables, the base --padding variable is 1rem 
-            at the smallest breakpoint increasing to 1.5rem at the medium breakpoint. It is joined by 
-            both --padding-half and --padding-double, calculated from the base variable by dividing 
-            and multiplying by 2 respectively.
-          </p>
-        </div>
-        <div class="card elev-1">
           <h3>Breakpoints</h3>
           <p>
             This website is designed to be mobile first with additional breakpoints at the page widths 
-            37.5rem, 56.25rem, 75rem and 112.5rem. These widths were deliberately chosen as they fall 
-            between the most commonly used screen sizes. 
+            37.5rem, 56.25rem, 75rem and 112.5rem. These widths were chosen as they fall between the 
+            most commonly used screen sizes. The table below shows how the universal values of the 
+            website change at the different breakpoints, individual pages and components also use 
+            these breakpoints.
+          </p>
+          <table>
+            <tr>
+              <th></th>
+              <th>0</th>
+              <th>37.5</th>
+              <th>56.25</th>
+              <th>75</th>
+              <th>112.5</th>
+            </tr>
+            <tr>
+              <td>Half spacing</td>
+              <td>0.5</td>
+              <td>0.625</td>
+              <td>0.75</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Spacing</td>
+              <td>1</td>
+              <td>1.25</td>
+              <td>1.5</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Double spacing</td>
+              <td>2</td>
+              <td>2.5</td>
+              <td>3</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Border radius</td>
+              <td>0.5</td>
+              <td>0.75</td>
+              <td>1</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>h2 size</td>
+              <td>-</td>
+              <td>2</td>
+              <td>2.25</td>
+              <td>2.5</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>h3 size</td>
+              <td>-</td>
+              <td>1.5</td>
+              <td>1.75</td>
+              <td>2</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>h4 size</td>
+              <td>-</td>
+              <td>1.25</td>
+              <td>1.5</td>
+              <td>1.75</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>p size</td>
+              <td>-</td>
+              <td>1.125</td>
+              <td>1.1875</td>
+              <td>1.25</td>
+              <td>-</td>
+            </tr>
+          </table>
+          <p>
+            *All values are in rem
           </p>
         </div>
         <div class="card elev-1">
