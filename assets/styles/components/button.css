@@ -8,10 +8,6 @@
   user-select: none;
 }
 
-.button:hover {
-  transform: translateY(-0.2rem);
-}
-
 .button:active {
   transform: translateY(0.2rem);
 }
@@ -26,6 +22,7 @@
   transition: background-color .25s ease-in-out;
   color: var(--base-colour);
   text-decoration: none;
+  text-transform: uppercase;
   letter-spacing: .1rem;
   font-size: 1.25rem;
   font-weight: 600;

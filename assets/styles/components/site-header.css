@@ -21,14 +21,36 @@
 }
 
 .site-header-logo {
-  height: var(--padding-double);
+  height: 2rem;
 }
 
 .site-header-text {
   color: var(--text);
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: var(--padding-double);
-  line-height: var(--padding-double);
+  font-size: 2rem;
+  line-height: 2rem;
   margin-left: var(--padding);
+}
+
+@media only screen and (min-width: 37.5rem) {
+  .site-header-text {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .site-header-logo {
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 56.25rem) {
+  .site-header-text {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .site-header-logo {
+    height: 3rem;
+  }
 }

@@ -9,9 +9,9 @@
     <link rel="shortcut icon" href="assets/logo/favicon.ico" type="image/x-icon">
     <title>Alex Tuppen</title>
   </head>
-  <body class="body-wrapper">
+  <body>
     <main class="body">
-      <div class="hero-image">
+      <header class="hero-image">
         <div class="hero-grid">
           <img class="hero-logo" src="assets/logo/white.svg" alt="alex tuppen logo"/>
           <div class="hero-title-wrapper">
@@ -28,8 +28,8 @@
             </a>
           </div>
         </div>
-      </div>
-      <div class="content">
+      </header>
+      <section class="content">
         <div class="card elev-1">
           <h3>Welcome</h3>
           <p>
@@ -42,7 +42,7 @@
           </p>
           <div class="welcome-buttons">
             <a class="button button-primary" href="https://github.com/alextuppen/personal-site" target="_blank">
-              Source code
+              Code
             </a>
             <a class="button button-primary" href="design/style-guide.html">
               Style guide
@@ -52,6 +52,8 @@
             </a>
           </div>
         </div>
+      </section>
+      <section class="content">
         <h2>Experience</h2>
         <div class="card elev-1">
           <h3>Full stack engineer</h3>
@@ -61,7 +63,7 @@
             <span class="role-time">March 2020 - Present</span>
             <span class="role-type">Permanent</span>
           </div>
-          <div class="role-tech-wrapper button button-seconday" onclick="toggleRtl('rtl-worldremit')">
+          <div class="role-tech-wrapper button button-seconday elev-6" onclick="toggleRtl('rtl-worldremit')">
             <div class="role-tech">
               <img src="assets/icons/infrastructure/node.svg" title="Node.js" alt="Node.js logo"/>
               <img src="assets/icons/tools/git.svg" title="Git" alt="Git logo"/>
@@ -329,7 +331,7 @@
             <span class="role-type">Full time student</span>
           </div>
         </div>
-      </div>
+      </section>
     </main>
   </body>
   <script src="assets/scripts/role-tech-list.js"></script>

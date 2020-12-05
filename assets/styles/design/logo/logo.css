@@ -1,0 +1,14 @@
+.logo-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo-wrapper > * {
+  padding: var(--padding);
+}
+
+.white-background {
+  background-color: white;
+  border-radius: var(--border-radius);
+}
