@@ -1,57 +1,88 @@
-.body, .content {
+body {
+  background-color: var(--base-colour);
+}
+
+main, section, footer {
   display: grid;
-  gap: var(--padding-double);
   grid-template-columns: 1fr;
 }
 
-.body {
+main, section {
+  gap: var(--padding-double);
+}
+
+footer {
+  gap: var(--padding-half);
+}
+
+main, footer {
   width: 100%;
   justify-items: center;
-  background-color: var(--base-colour);
+  justify-content: center;
   text-align: center;
 }
 
-.body-header {
+.page-header {
   display: flex;
   padding: var(--padding-double) 0;
-  margin-top: calc(var(--padding) * 2 + 2rem);
+  margin-top: calc(var(--padding-half) * 2 + 2rem);
   width: 100%;
 }
 
-.body-header-text {
+.page-header-text {
   color: var(--text);
   font-size: 3rem;
   margin: auto;
 }
 
+footer {
+  margin: var(--padding-double) auto;
+}
+
+.footer-logo {
+  width: 25%;
+}
+
 @media only screen and (min-width: 37.5rem) {
-  .body-header {
-    margin-top: calc(var(--padding) * 2 + 2.25rem);
+  .page-header {
+    margin-top: calc(var(--padding-half) * 2 + 2.25rem);
   }
 
-  .body-header-text {
+  .page-header-text {
     font-size: 5rem;
+  }
+
+  section, footer {
+    grid-template-columns: minmax(auto, 35rem);
+  }
+
+  .footer-logo {
+    width: 20%;
   }
 }
 
 @media only screen and (min-width: 56.25rem) {
-  .content {
-    max-width: 50rem;
-  }
-
-  .body-header {
-    margin-top: calc(var(--padding) * 2 + 2.5rem);
+  section, footer {
+    grid-template-columns: minmax(auto, 50rem);
   }
 }
 
 @media only screen and (min-width: 75rem) {
-  .content {
-    max-width: 70rem;
+  .page-header {
+    margin-top: calc(var(--padding-half) * 2 + 2.5rem);
+  }
+
+  section, footer {
+    grid-template-columns: minmax(auto, 70rem);
+  }
+
+  .footer-logo {
+    width: 15%;
   }
 }
 
 @media only screen and (min-width: 112.5rem) {
-  .content {
-    max-width: 80rem;
+  section, footer {
+    grid-template-columns: minmax(auto, 80rem);
   }
 }
