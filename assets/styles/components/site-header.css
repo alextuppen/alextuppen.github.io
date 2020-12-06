@@ -8,6 +8,7 @@
 }
 
 .site-header-wrapper {
+  height: 100%;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -35,22 +36,22 @@
 
 @media only screen and (min-width: 37.5rem) {
   .site-header-text {
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+  }
+
+  .site-header-logo {
+    height: 2.25rem;
+  }
+}
+
+@media only screen and (min-width: 56.25rem) {
+  .site-header-text {
     font-size: 2.5rem;
     line-height: 2.5rem;
   }
 
   .site-header-logo {
     height: 2.5rem;
-  }
-}
-
-@media only screen and (min-width: 56.25rem) {
-  .site-header-text {
-    font-size: 3rem;
-    line-height: 3rem;
-  }
-
-  .site-header-logo {
-    height: 3rem;
   }
 }

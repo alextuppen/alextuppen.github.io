@@ -26,7 +26,7 @@
 
 @media only screen and (min-width: 37.5rem) {
   .body-header {
-    margin-top: calc(var(--padding) * 2 + 2.5rem);
+    margin-top: calc(var(--padding) * 2 + 2.25rem);
   }
 
   .body-header-text {
@@ -40,7 +40,7 @@
   }
 
   .body-header {
-    margin-top: calc(var(--padding) * 2 + 3rem);
+    margin-top: calc(var(--padding) * 2 + 2.5rem);
   }
 }
 
