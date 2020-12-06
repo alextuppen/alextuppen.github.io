@@ -20,15 +20,15 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 p, span, blockquote, th, td {
-  font-size: 1.0625rem;
+  font-size: 1rem;
 }
 
 @media only screen and (min-width: 37.5rem) {
@@ -45,7 +45,7 @@ p, span, blockquote, th, td {
   }
 
   p, span, blockquote, th, td {
-    font-size: 1.125rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -63,7 +63,7 @@ p, span, blockquote, th, td {
   }
 
   p, span, blockquote, th, td {
-    font-size: 1.1875rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -81,6 +81,6 @@ p, span, blockquote, th, td {
   }
 
   p, span, blockquote, th, td {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
   }
 }
